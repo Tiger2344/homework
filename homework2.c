@@ -21,7 +21,7 @@ int main() {
   c =  c - y;
   temp = b*b - 4* a*c;
   if(temp >= 0) {
-    temp = sqrt(temp);
+    temp = mysqrt(temp);
     a = 2 * a;
     x1 = (-b + temp)/(a);
     x2 = (-b - temp)/(a);
